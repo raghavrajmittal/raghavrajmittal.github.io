@@ -1,144 +1,358 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
 
-    <title>Raghav Raj Mittal Website</title>
+    <title>Raghav Raj Mittal</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="assets/css/main.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="assets/js/hover.zoom.js"></script>
-    <script src="assets/js/hover.zoom.conf.js"></script>
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-  </head>
 
-  <body>
+</head>
 
-    <!-- Static navbar -->
-    <div class="navbar navbar-inverse navbar-static-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html">RAGHAV RAJ MITTAL</a>
+<body>
+
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top" onclick=$("#menu-close").click();>Raghav Raj Mittal</a>
+            </li>
+            <li>
+                <a href="#top" onclick=$("#menu-close").click();>Home</a>
+            </li>
+            <li>
+                <a href="#about" onclick=$("#menu-close").click();>About Me</a>
+            </li>
+            <li>
+                <a href="#resume" onclick=$("#menu-close").click();>Resume</a>
+            </li>
+            <li>
+                <a href="#portfolio" onclick=$("#menu-close").click();>My Work</a>
+            </li>
+            <li>
+                <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+            <h1>Raghav Raj Mittal</h1>
+            <h2>Software Developer &amp; Travel Enthusiast </h2>
+            <h3><i>We all have magic inside of us.</h3>
+            <br>
+            <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
         </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="work.html">Work</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
+    </header>
 
-	<!-- +++++ Welcome Section +++++ -->
-	<div id="ww">
-	    <div class="container">
-			<div class="row">
-				<div class="col-lg-8 col-lg-offset-2 centered">
-					<img src="assets/img/user.png" alt="Stanley">
-					<h1>Hi, I am Raghav!</h1>
-					<p>Hello everybody. I'm Raghav, a handsome college student studying at Georgia Tech. Here's my website, which sheds light on who I am and highlights some of my work. </p>
-					<p>Please feel free to reach out to me for any questions. My contact information is given in the bottom of the page.</p>
-				
-				</div><!-- /col-lg-8 -->
-			</div><!-- /row -->
-	    </div> <!-- /container -->
-	</div><!-- /ww -->
-	
-	
-	<!-- +++++ Projects Section +++++ -->
-	
-	<div class="container pt">
-		<div class="row mt centered">	
-			<div class="col-lg-4">
-				<a class="zoom green" href="work01.html"><img class="img-responsive" src="assets/img/portfolio/port01.jpg" alt="" /></a>
-				<p>APE</p>
-			</div>
-			<div class="col-lg-4">
-				<a class="zoom green" href="work01.html"><img class="img-responsive" src="assets/img/portfolio/port02.jpg" alt="" /></a>
-				<p>RAIDERS</p>
-			</div>
-			<div class="col-lg-4">
-				<a class="zoom green" href="work01.html"><img class="img-responsive" src="assets/img/portfolio/port03.jpg" alt="" /></a>
-				<p>VIKINGS</p>
-			</div>
-		</div><!-- /row -->
-		<div class="row mt centered">	
-			<div class="col-lg-4">
-				<a class="zoom green" href="work01.html"><img class="img-responsive" src="assets/img/portfolio/port04.jpg" alt="" /></a>
-				<p>YODA</p>
-			</div>
-			<div class="col-lg-4">
-				<a class="zoom green" href="work01.html"><img class="img-responsive" src="assets/img/portfolio/port05.jpg" alt="" /></a>
-				<p>EMPERORS</p>
-			</div>
-			<div class="col-lg-4">
-				<a class="zoom green" href="work01.html"><img class="img-responsive" src="assets/img/portfolio/port06.jpg" alt="" /></a>
-				<p>CHIEFS</p>
-			</div>
-		</div><!-- /row -->
-	</div><!-- /container -->
-	
-	
-	<!-- +++++ Footer Section +++++ -->
-	
-	<div id="footer">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-4">
-					<h4>My Bunker</h4>
-					<p>
-						Some Address 987,<br/>
-						+34 9054 5455, <br/>
-						Madrid, Spain.
-					</p>
-				</div><!-- /col-lg-4 -->
-				
-				<div class="col-lg-4">
-					<h4>My Links</h4>
-					<p>
-						<a href="#">Dribbble</a><br/>
-						<a href="#">Twitter</a><br/>
-						<a href="#">Facebook</a>
-					</p>
-				</div><!-- /col-lg-4 -->
-				
-				<div class="col-lg-4">
-					<h4>About Stanley</h4>
-					<p>This cute theme was created to showcase your work in a simple way. Use it wisely.</p>
-				</div><!-- /col-lg-4 -->
-			
-			</div>
-		
-		</div>
-	</div>
-	
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Biography</h2>
+                    <p class="lead">Hi, I'm Raghav Raj Mittal, a Computer Science Major at Georgia Tech. I've recently discovered my passion in technology and in changing the world. I'm currently looking for an opportunity where my work can create a positive impact.
+                    <br><br>My skills include Java, Python, C, HTML, CSS, Git, Android, and Javascript.
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="assets/js/bootstrap.min.js"></script>
-  </body>
+                    <br><br>My other interests include football (soccer), table-tennis, raquetball, and Pokemon</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+
+    <!-- Resume -->
+    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+    <section id="resume" class="resume bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>Resume</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <!-- <div class="col-md-3 col-sm-6">
+                            <div class="resume-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-cloud fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Service Name</strong>
+                                </h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <a href="#" class="btn btn-light">Learn More</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="resume-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-compass fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Service Name</strong>
+                                </h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <a href="#" class="btn btn-light">Learn More</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="resume-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-flask fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Service Name</strong>
+                                </h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <a href="#" class="btn btn-light">Learn More</a>
+                            </div>
+                        </div> -->
+                        <div class="col-md-12 col-sm-6"> 
+                            <!-- change ^^ to col-md-6 if you want more than 1 -->
+                            <div class="resume-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-file-text fa-stack-1x text-primary"></i>
+                            </span>
+<!--                                 <h4>
+                                    <strong>Resumé</strong>
+                                </h4> -->
+                                <p>Download my latest Resume!</p>
+                                <a href="documents/Raghav_Mittal_Resume.pdf" download="Raghav_Mittal_Resume.pdf" class="btn btn-light">Click here</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Callout -->
+<!--     <aside class="callout">
+        <div class="text-vertical-center">
+            <h1>Vertically Centered Text</h1>
+        </div>
+    </aside> -->
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>My Work</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="https://github.com/tmudireddy/cs2340/tree/master/perfectWater">
+                                    <img class="img-portfolio img-responsive" src="img/android-coming-soon.jpg">
+                                </a>
+                                <p>PerfectWater : A crowdsourced water availability app</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="https://github.com/raghavrajmittal/studyBuddy">
+                                    <img class="img-portfolio img-responsive" src="img/android-coming-soon.jpg">
+                                </a>
+                                <p>StudyBuddy : An app to help GT students find study partners</p>
+                            </div>
+                        </div>
+<!--                         <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- /.row (nested) -->
+<!--                     <a href="#" class="btn btn-dark">View More Items</a>
+ -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Call to Action -->
+<!--     <aside class="call-to-action bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3>The buttons below are impossible to resist.</h3>
+                    <a href="#" class="btn btn-lg btn-light">Click Me!</a>
+                    <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
+                </div>
+            </div>
+        </div>
+    </aside> -->
+
+    <!-- Map -->
+    <section id="contact" class="map">
+        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3316.421275283119!2d-84.39847368511565!3d33.77561778068214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5048aebc34fe3%3A0xb52ad03e3ad8c50f!2sGeorgia+Institute+of+Technology!5e0!3m2!1sen!2sus!4v1490731822341" allowfullscreen></iframe>
+        <br />
+        <small>
+            <a href="https://www.google.com/maps/place/Georgia+Institute+of+Technology/@33.7756178,-84.3984737,17z/data=!3m1!4b1!4m5!3m4!1s0x88f5048aebc34fe3:0xb52ad03e3ad8c50f!8m2!3d33.7756178!4d-84.396285"></a>
+        </small>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4><strong>Raghav Raj Mittal</strong>
+                    </h4>
+                    <p>331226 Georgia Tech Station
+                        <br>Atlanta, GA 30332</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-phone fa-fw"></i> (470) 263-3262</li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:name@example.com">raj.raghav@gmail.com</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="https://www.facebook.com/raghav.mittal.18"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/raghavrajmittal"><i class="fa fa-github fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/raghavrajmittal/"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
+                    <hr class="small">
+                    <p class="text-muted">Copyright &copy; Raghav Raj Mittal 2017</p>
+                </div>
+            </div>
+        </div>
+        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    //#to-top button appears after scrolling
+    var fixed = false;
+    $(document).scroll(function() {
+        if ($(this).scrollTop() > 250) {
+            if (!fixed) {
+                fixed = true;
+                // $('#to-top').css({position:'fixed', display:'block'});
+                $('#to-top').show("slow", function() {
+                    $('#to-top').css({
+                        position: 'fixed',
+                        display: 'block'
+                    });
+                });
+            }
+        } else {
+            if (fixed) {
+                fixed = false;
+                $('#to-top').hide("slow", function() {
+                    $('#to-top').css({
+                        display: 'none'
+                    });
+                });
+            }
+        }
+    });
+    // Disable Google Maps scrolling
+    // See http://stackoverflow.com/a/25904582/1607849
+    // Disable scroll zooming and bind back the click event
+    var onMapMouseleaveHandler = function(event) {
+        var that = $(this);
+        that.on('click', onMapClickHandler);
+        that.off('mouseleave', onMapMouseleaveHandler);
+        that.find('iframe').css("pointer-events", "none");
+    }
+    var onMapClickHandler = function(event) {
+            var that = $(this);
+            // Disable the click handler until the user leaves the map area
+            that.off('click', onMapClickHandler);
+            // Enable scrolling zoom
+            that.find('iframe').css("pointer-events", "auto");
+            // Handle the mouse leave event
+            that.on('mouseleave', onMapMouseleaveHandler);
+        }
+        // Enable map zooming with mouse scroll when the user clicks the map
+    $('.map').on('click', onMapClickHandler);
+    </script>
+
+</body>
+
 </html>
