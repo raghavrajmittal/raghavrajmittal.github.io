@@ -9,13 +9,30 @@ html,
 body {
     width: 100%;
     height: 100%;
-    background-color: #fef6f7
+    background-color: #ffffff
 }
 body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 p {
   font-size: 15px;
+}
+p a {
+  color: #23c5b8;
+}
+h2 {
+  text-align: center;
+}
+
+/* Header */
+.main_landing {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    background: url(../img/newbg.jpg) no-repeat center center fixed;
+    background-size: cover;
 }
 .text-vertical-center {
     display: table-cell;
@@ -136,29 +153,10 @@ hr.small {
 }
 
 
-/* Header */
-.main_landing {
-    display: table;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    color: #ffffff;
-    background: url(../img/newbg.jpg) no-repeat center center scroll;
-    background-size: cover;
-}
-
-
 /* About */
 .about {
-    padding: 50px 0;
+    padding: 30px 0;
 }
-
-
-/* Resume */
-.resume {
-    padding: 50px 0;
-}
-
 
 /* Callout */
 .callout {
@@ -176,7 +174,7 @@ hr.small {
 
 /* Portfolio */
 .portfolio {
-    padding: 50px 0;
+    padding: 30px 0;
 }
 .portfolio-item {
     margin-bottom: 30px;
@@ -192,30 +190,21 @@ hr.small {
 }
 
 
-/* Call to Action */
-.call-to-action {
-    padding: 50px 0;
+/* Career */
+.career {
+  padding: 30px 0;
 }
-.call-to-action .btn {
-    margin: 10px;
+.career-item {
+    padding-top: 20px;
 }
-
-
-/* Map */
-.map {
-    height: 500px;
-}
-@media(max-width:768px) {
-    .map {
-        height: 75%;
-    }
-}
-.map iframe {
-    pointer-events: none;
+.career-logo {
+    padding-top: 5px;
+    width: 150px;
 }
 
 
 /* Footer */
 footer {
-    padding: 100px 0;
+    padding: 50px 0;
+    text-align: right;
 }
