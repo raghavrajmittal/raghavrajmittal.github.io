@@ -31,7 +31,7 @@ h2 {
     width: 100%;
     height: 100%;
     color: #ffffff;
-    background: url(../img/newbg.jpg) no-repeat center center fixed;
+    background: url(../images/newbg.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 .text-vertical-center {
