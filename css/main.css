@@ -14,15 +14,26 @@ body {
 body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+
 p {
   font-size: 15px;
 }
 p a {
-  color: #23c5b8;
+  color: #1fada2;
+}
+p a:hover{
+}
+
+a {
+}
+a:hover {
+  color: #ffb31a;
+  text-decoration: none;
 }
 h2 {
   text-align: center;
 }
+
 
 /* Header */
 .main_landing {
