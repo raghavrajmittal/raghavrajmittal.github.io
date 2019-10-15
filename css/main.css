@@ -41,8 +41,10 @@ h2 {
     position: relative;
     width: 100%;
     height: 100%;
-    color: #ffffff;
-    background: url(../images/newbg.jpg) no-repeat center center fixed;
+    color: #000000;
+    background: #ffffff;
+    /* color: #ffffff; */
+    /* background: url(../images/newbg.jpg) no-repeat center center fixed; */
     background-size: cover;
 }
 .text-vertical-center {
