@@ -190,7 +190,25 @@ hr.small {
     padding: 30px 0;
 }
 .portfolio-item {
-    margin-bottom: 30px;
+  padding-top: 20px;
+  margin-bottom: 50px;
+}
+.project-name {
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 1.2em;
+  display: block;
+
+}
+.project-meta {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.85em;
+  display: inline-block;
+}
+.project-desc {
+  display: block;
+
 }
 .img-portfolio {
     margin: 0 auto;
@@ -199,7 +217,8 @@ hr.small {
     object-fit: cover;
 }
 .img-portfolio:hover {
-    opacity: 0.7;
+    opacity: 0.5;
+    transform: scale(0.8)
 }
 
 
