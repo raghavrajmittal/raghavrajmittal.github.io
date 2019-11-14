@@ -58,6 +58,14 @@ h2 {
     font-size: 4.5em;
     font-weight: 700;
 }
+.img-face {
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
 
 
 /* Custom Button Styles */
