@@ -25,6 +25,7 @@ p a:hover{
 }
 
 a {
+  color: #000000;
 }
 a:hover {
   color: #ffb31a;
@@ -206,9 +207,9 @@ hr.small {
   margin-top: 10px;
   font-size: 1.2em;
   display: block;
-
 }
 .project-meta {
+  color: #000000;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 0.85em;
@@ -216,7 +217,6 @@ hr.small {
 }
 .project-desc {
   display: block;
-
 }
 .img-portfolio {
     margin: 0 auto;
@@ -225,8 +225,7 @@ hr.small {
     object-fit: cover;
 }
 .img-portfolio:hover {
-    opacity: 0.5;
-    transform: scale(0.8)
+    /* opacity: 0.5; */
 }
 
 
