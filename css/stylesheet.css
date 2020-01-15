@@ -94,7 +94,7 @@ heading {
   font-size: 22px;
 }
 
-papertitle {
+item-title {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 700
@@ -128,4 +128,49 @@ name {
 
 span.highlight {
   background-color: #ffffd0;
+}
+
+
+/* Projects */
+.img-project {
+    margin: 0 auto;
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+.project-name {
+  font-weight: bold;
+  display: block;
+}
+.project-people {
+  display: block;
+}
+.project-meta {
+  display: block;
+  font-style: italic;
+}
+.project-desc {
+  display: block;
+  text-align: justify;
+}
+
+
+/* Teaching */
+.img-teaching {
+    margin: 0 auto;
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+.teaching-name {
+  font-weight: bold;
+  display: block;
+}
+.teaching-meta {
+  display: block;
+  font-style: italic;
+}
+.teaching-desc {
+  display: block;
+  text-align: justify;
 }
