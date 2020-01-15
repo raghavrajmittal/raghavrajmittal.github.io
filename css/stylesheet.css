@@ -131,6 +131,40 @@ span.highlight {
 }
 
 
+/* Global Style */
+.table-section {
+  width: 100%;
+  border: 0px;
+  border-spacing: 0px;
+  border-collapse: separate;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+/* Introduction*/
+.img-profile-photo {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  border-radius:50%;
+  object-fit: cover;
+}
+.cell-introduction {
+  padding:2.5%;
+  width:63%;
+  vertical-align:middle;
+}
+
+
+/* Research */
+.cell-research {
+  padding:20px;
+  width:100%;
+  vertical-align:middle;
+}
+
+
 /* Projects */
 .img-project {
     margin: 0 auto;
@@ -153,6 +187,7 @@ span.highlight {
   display: block;
   text-align: justify;
 }
+
 
 
 /* Teaching */
