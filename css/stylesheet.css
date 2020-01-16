@@ -140,6 +140,18 @@ span.highlight {
   margin-right: auto;
   margin-left: auto;
   table-layout: fixed;
+  padding:20px;
+
+}
+.left-cell {
+  padding-bottom: 30px;
+  width: 30%;
+  vertical-align: middle;
+}
+.right-cell {
+  padding-bottom: 30px;
+  width: 70%;
+  vertical-align: middle;
 }
 
 
@@ -152,17 +164,12 @@ span.highlight {
   object-fit: cover;
 }
 .cell-introduction {
-  padding:2.5%;
   width:63%;
   vertical-align:middle;
 }
-
-
-/* Research */
-.cell-research {
-  padding:20px;
-  width:100%;
-  vertical-align:middle;
+.cell-introduction-photo {
+  width: 40%;
+  max-width:40%;
 }
 
 
@@ -198,15 +205,14 @@ span.highlight {
 }
 .education-name {
   font-weight: bold;
-  display: block;
+  display: inline-block;
+}
+.education-location {
+  display: inline-block;
 }
 .education-meta {
   display: block;
   font-style: italic;
-}
-.education-desc {
-  display: block;
-  text-align: justify;
 }
 
 
