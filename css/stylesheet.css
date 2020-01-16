@@ -139,6 +139,7 @@ span.highlight {
   border-collapse: separate;
   margin-right: auto;
   margin-left: auto;
+  table-layout: fixed;
 }
 
 
@@ -188,6 +189,25 @@ span.highlight {
   text-align: justify;
 }
 
+
+/* Education */
+.img-education {
+  margin: 0 auto;
+  width: 100px;
+  object-fit: contain;
+}
+.education-name {
+  font-weight: bold;
+  display: block;
+}
+.education-meta {
+  display: block;
+  font-style: italic;
+}
+.education-desc {
+  display: block;
+  text-align: justify;
+}
 
 
 /* Teaching */
