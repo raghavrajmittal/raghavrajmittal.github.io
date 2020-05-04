@@ -144,12 +144,12 @@ span.highlight {
 
 }
 .left-cell {
-  padding-bottom: 30px;
+  padding-bottom: 25px;
   width: 30%;
   vertical-align: middle;
 }
 .right-cell {
-  padding-bottom: 30px;
+  padding-bottom: 25px;
   width: 70%;
   vertical-align: middle;
 }
@@ -178,7 +178,7 @@ span.highlight {
     margin: 0 auto;
     width: 200px;
     height: 150px;
-    object-fit: cover;
+    object-fit: contain;
 }
 .project-name {
   font-weight: bold;
