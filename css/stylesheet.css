@@ -74,6 +74,7 @@ a:hover {
   text-decoration: none;
 }
 
+strong,
 body,
 td,
 th,
@@ -84,46 +85,14 @@ a {
   font-size: 14px
 }
 
-strong {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
-}
-
 heading {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 22px;
 }
 
-item-title {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
-  font-weight: 700
-}
-
 name {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 32px;
-}
-
-.one {
-  width: 160px;
-  height: 160px;
-  position: relative;
-}
-
-.two {
-  width: 160px;
-  height: 160px;
-  position: absolute;
-  transition: opacity .2s ease-in-out;
-  -moz-transition: opacity .2s ease-in-out;
-  -webkit-transition: opacity .2s ease-in-out;
-}
-
-.fade {
-  transition: opacity .2s ease-in-out;
-  -moz-transition: opacity .2s ease-in-out;
-  -webkit-transition: opacity .2s ease-in-out;
 }
 
 span.highlight {
@@ -164,19 +133,18 @@ span.highlight {
   object-fit: cover;
 }
 .cell-introduction {
-  width:63%;
+  width:60%;
   vertical-align:middle;
 }
 .cell-introduction-photo {
   width: 40%;
-  max-width:40%;
 }
 
 
 /* Projects */
 .img-project {
     margin: 0 auto;
-    width: 200px;
+    width: 90%;
     height: 150px;
     object-fit: contain;
 }
@@ -199,7 +167,7 @@ span.highlight {
 /* Education */
 .img-education {
   margin: 0 auto;
-  width: 100px;
+  width: 50%;
   object-fit: contain;
 }
 .education-name {
@@ -218,9 +186,9 @@ span.highlight {
 /* Teaching */
 .img-teaching {
     margin: 0 auto;
-    width: 200px;
+    width: 90%;
     height: 150px;
-    object-fit: cover;
+    object-fit: contain;
 }
 .teaching-name {
   font-weight: bold;
